@@ -9,6 +9,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "test": "jest --watchAll",
+    "apk": "eas build -p android --profile preview",
     "lint": "expo lint"
   },
   "jest": {
